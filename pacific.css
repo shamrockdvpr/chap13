@@ -39,11 +39,11 @@ header a:hover {color:#90C7E3}
 
 .section {padding-left: 0.5em; padding-right:0.5em;}
 
-#homehero {height: 300px; background-image: url(images/coast.jpg); background-repeat: no-repeat; background-size: 200% 100%; }
+#homehero {height: 300px; background-image: url(coast.jpg); background-repeat: no-repeat; background-size: 200% 100%; }
 
-#yurthero {height: 300px; background-image: url(images/yurt.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+#yurthero {height: 300px; background-image: url(yurt.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
 
-#trailhero {height: 300px; background-image: url(images/trail.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+#trailhero {height: 300px; background-image: url(trail.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
 
 table {border: 1px solid #3399CC; width: 90%; margin: auto; border-collapse: collapse;}
 
@@ -60,9 +60,9 @@ input {margin-bottom: .5em}
 
 textarea {margin-bottom: .5em}
 
-#reshero{height: 300px; background-image: url(images/ocean.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+#reshero{height: 300px; background-image: url(ocean.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
 
-#shophero {height: 300px; background-image: url(images/psunset.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+#shophero {height: 300px; background-image: url(psunset.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
 
 .shop {margin: 1em; background-color:#F4F4F4;}
 shop img {float: right; padding:1em}
