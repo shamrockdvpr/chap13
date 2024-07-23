@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+body {background-color:#90C7E3; color:#666666; font-family: Verdana,Arial, san-serif;}
+
+
+h1 {color: #FFFFFF; font-family: Georgia, serif; text-align: center; font-size:1.5em;}
+
+nav {font-weight: bold; padding-top: 0.5em; padding-right: 0.5em; padding-bottom: 0.5em; font-size:1.2em; text-align:center; background-color: #FFFFFF;}
+
+nav a {text-decoration: none;}
+nav a:link {color:#5C7FA3}
+nav a:visited {color:#344873}
+nav a:hover { color:#A52A2A}
+
+nav ul {display: flex; flex-direction: column; list-style-type: none; margin: 0;padding-left:0}
+
+nav li {padding-bottom: 0.5em; padding-top: 0.5em; padding-left:1em; padding-right: 1em; width : 100%; border-bottom: 1px}
+
+h2 {color:#1976D2; font-family: Georgia, serif;}
+
+h3 {font-family: Georgia, serif;}
+
+dt {font-weight: bold; background-color: #002171; color:white;}
+
+.resort {color:#1976D2; font-size: 1.2em;}
+
+footer {font-size: 0.7em; font-style: italic; text-align: center; padding: 1em; background-color: #FFFFFF;}
+
+#wrapper { background-color: #FFFFFF; min-width:0px; max-width: 2048px;}
+
+#header {background-color: #002171; background-position: right; padding: 1em;}
+
+header a {text-decoration:none}
+header a:link {color:#FFFFFF}
+header a:visited {color:#FFFFFF}
+header a:hover {color:#90C7E3}
+
+#main {padding-left: 1em; padding-right: 1em; padding-top: 0em; padding-bottom:0em}
+
+.section {padding-left: 0.5em; padding-right:0.5em;}
+
+#homehero {height: 300px; background-image: url(images/coast.jpg); background-repeat: no-repeat; background-size: 200% 100%; }
+
+#yurthero {height: 300px; background-image: url(images/yurt.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+
+#trailhero {height: 300px; background-image: url(images/trail.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+
+table {border: 1px solid #3399CC; width: 90%; margin: auto; border-collapse: collapse;}
+
+table:nth-of-type(even) {background-color: #DFEDF8}
+
+td, th {padding: 5px; border: 1px solid #3399CC}
+td {text-align: center}
+
+.text {text-align: left;}
+
+form { display: flex; flex-direction: column; padding-left: 1em; width: 80%}
+
+input {margin-bottom: .5em}
+
+textarea {margin-bottom: .5em}
+
+#reshero{height: 300px; background-image: url(images/ocean.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+
+#shophero {height: 300px; background-image: url(images/psunset.jpg); background-repeat: no-repeat; background-size: 200% 100%;}
+
+.shop {margin: 1em; background-color:#F4F4F4;}
+shop img {float: right; padding:1em}
+shop form{clear:right}
+
+#mobile {display: inline}
+#desktop {display: none}
+
+@media (min-width: 600px) {h1 { font-size:2em; letter-spacing:0.25em} nav ul {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-around; padding-right: 2em;} nav li {width:12em; border-bottom:none} .section {padding-right: 2em; padding-left: 2em;} #mobile {display: none} #desktop {display: inline} #flow {display: flex; flex-direction: row} #homehero {background-size: 100% 100%} #yurthero {background-size: 100% 100%} #trailhero {background-size: 100% 100%}form { display: grid; width: 60%; grid-gap: 1em; grid-template-columns: 10em 1fr; grid-template-rows: auto;} input[type="submit"] {grid-column: 2; width: 9em;} #reshero{background-size: 100% 100%}#shophero{background-size: 100% 100%}}
+
+@media (min-width: 1024px) {body {background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);} nav ul {padding-left: 10%; padding-right: 10%} #wrapper {margin: auto; width: 80%}

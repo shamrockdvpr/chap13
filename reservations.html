@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pacific Trails Resort</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="pacific.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Pacific Trails, a resort on the California Coast. Birdwatch, Kayak, Relax in a private yurt. Explore the Pacific Northwest in Luxury">
+</head>
+
+<body>
+	
+	
+	<div id="header">
+		<h1>Pacific Trails Resort</h1>
+	</div>
+	
+	<nav>
+		<ul>
+		<li>
+			<a href=index.html>Home </a> 
+		</li>
+		<li>
+			<a href=yurts.html>Yurts </a> 
+		</li>
+		<li>
+			<a href=activities.html>Activities </a> 
+		</li>
+		<li>
+			<a href=reservations.html>Reservations </a> 
+		</li>
+		<li>
+			<a href=shop.html>Shop </a> 
+		</li>
+		</ul>
+	</nav>
+	<div id="wrapper">
+	<div id="reshero">
+		
+	</div>
+	
+	<div id="main">
+	
+	<h2> Reservations at Pacific Trails </h2>
+	<h3>Contact Us</h3>
+	<p>
+		Required fields are marked with an asterisk*
+	</p>
+	
+	<form name="reservation" method="post" id="res" action="https://webdevbasics.net/scripts/pacific.php">
+		<label for="myFName">*First Name:</label>
+		<input type="text" name="myFName" id="myFName" required>
+		<label for="myLname">*Last Name:</label>
+		<input type="text" name="myLname" id="myLname" required>
+		<label for="myEmail">*E-Mail:</label>
+		<input type="email" name="myEmail" id="myEmail" required>
+		<label for="myPhone">Phone:</label>
+		<input type="tel" name="myPhone" id="myPhone" maxlength="10">
+		<label for="myDate">Arrival Date:</label>
+		<input type="date" name="myDate" id="myDate">
+		<label for="myNights">Nights:</label>
+		<input type="number" name="myNights" id="myNights" min="1" max="14">
+		<label for="myComments">*Comments:</label>
+		<textarea name="myComments" id="myComments" rows="2" cols="20" required>Please enter any comments, questions or concerns here</textarea>
+		<input type="Submit" name="mySubmit" id="mySubmit" value="Submit">
+	</form>	
+	
+	</div>
+	
+	<footer>
+		Copyright © 2020 Pacific Trails Resort <br>
+		cshaneck@email.com
+		<a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+		<span id="desktop">888-555-5555</span>
+	</footer>
+	
+	</div>
+
+</body>
